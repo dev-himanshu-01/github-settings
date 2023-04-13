@@ -1,0 +1,197 @@
+{
+  "files.autoSave": "afterDelay",
+  "terminal.external.linuxExec": "",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.linkedEditing": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "notebook.showCellStatusBar": "hidden",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "diffEditor.wordWrap": "on",
+  "workbench.colorCustomizations": {
+    // "editor.background": "#000000",
+    "editor.selectionBackground": "#4e4e4eab",
+    "editor.foreground": "#7e7d7d"
+  },
+  "diffEditor.codeLens": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.dragAndDrop": false,
+  "editor.emptySelectionClipboard": true,
+  "editor.find.addExtraSpaceOnTop": true,
+  "editor.find.cursorMoveOnType": true,
+  "editor.folding": true,
+  "editor.foldingHighlight": true,
+  "editor.foldingStrategy": "auto",
+  "editor.fontFamily": "\"Fira Code\"",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.fontWeight": "500",
+  "editor.glyphMargin": true,
+  "editor.lightbulb.enabled": true,
+  //mini-map settings
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 120,
+  "editor.minimap.scale": 1,
+  "editor.minimap.showSlider": "mouseover",
+  "editor.minimap.side": "right",
+  "editor.minimap.size": "proportional",
+  "editor.multiCursorModifier": "alt",
+  "editor.mouseWheelZoom": true,
+  "editor.padding.top": 0,
+  "editor.padding.bottom": 0,
+  "editor.parameterHints.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "editor.rename.enablePreview": true,
+  "editor.renderControlCharacters": false,
+  // Scroll bar - "horizonal" and "vertical"
+  "editor.scrollbar.horizontal": "visible",
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.showFoldingControls": "mouseover",
+  "editor.suggest.showStatusBar": false,
+  "editor.tabCompletion": "on",
+  "extensions.autoCheckUpdates": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.codeLensFontFamily": "Cascadia Code, Fira Code",
+  "editor.codeLensFontSize": 1,
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "none",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "thunder-client.codeSnippetLanguage": "js-fetch",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.wrapTabs": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "liveServer.settings.CustomBrowser": "chrome",
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "HACK:",
+      "color": "#000",
+      "isWholeLine": false
+    },
+    {
+      "text": "TODO:",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)"
+      //other styling properties goes here ...
+    },
+    {
+      "text": "MEDIA_QUERIES:",
+      "color": "red",
+      "border": "1px solid #00a821",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)"
+      //other styling properties goes here ...
+    }
+  ],
+  "todohighlight.keywordsPattern": "TODO:|FIXME:|\\(([^)]+)\\)", //highlight `TODO:`,`FIXME:` or content between parentheses
+  "todohighlight.defaultStyle": {
+    "color": "red",
+    "backgroundColor": "#ffab00",
+    "overviewRulerColor": "#ffab00",
+    "cursor": "pointer",
+    "border": "1px solid #eee",
+    "borderRadius": "2px",
+    "isWholeLine": true
+    //other styling properties goes here ...
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": false,
+  "git.autofetch": true,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "bracketPairColorizer.depreciation-notice": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.enablePreview": false,
+  "editor.stickyScroll.enabled": true,
+  "vscode-pets.petType": "totoro",
+  "vscode-pets.theme": "forest",
+  "vscode-pets.position": "explorer",
+  "vscode-pets.petSize": "medium",
+  "workbench.layoutControl.enabled": false,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "githubPullRequests.notifications": "pullRequests",
+  "githubPullRequests.focusedMode": "overview",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "\"fira code\"",
+  "terminal.integrated.fontWeightBold": "bold",
+  "emmet.includeLanguages": {
+    "javascript": "javascripreact"
+  },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "highlight-matching-tag.enabled": true,
+  "highlight-matching-tag.showRuler": true,
+  "highlight-matching-tag.showPath": true,
+  "window.commandCenter": false,
+  "window.zoomLevel": -1,
+  "terminal.integrated.cursorStyle": "underline",
+  "errorLens.enabled": true,
+  "errorLens.fontFamily": "fira code"
+}
